@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 261e8fe6c6e00eb479a3c34c50f2fa0e
+timeCreated: 1514683233
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Spongeboy Me Bob
+  fontNames:
+  - Spongeboy Me Bob
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

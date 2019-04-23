@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: a4eba3480c8f081409ff66f9bf4f0afb
+timeCreated: 1514698435
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BottomBun
+    100002: Cheese
+    100004: //RootNode
+    100006: Lettuce1
+    100008: Lettuce2
+    100010: Meat
+    100012: Seed
+    100014: seed
+    100016: Seed.001
+    100018: Seed.002
+    100020: Seed.003
+    100022: Seed.004
+    100024: Seed.005
+    100026: Seed.006
+    100028: Seed.007
+    100030: Seed.008
+    100032: Seed.009
+    100034: Seed.010
+    100036: Seed.011
+    100038: Seed.012
+    100040: Tomato
+    100042: Tomato2
+    100044: TopBun
+    400000: BottomBun
+    400002: Cheese
+    400004: //RootNode
+    400006: Lettuce1
+    400008: Lettuce2
+    400010: Meat
+    400012: Seed
+    400014: seed
+    400016: Seed.001
+    400018: Seed.002
+    400020: Seed.003
+    400022: Seed.004
+    400024: Seed.005
+    400026: Seed.006
+    400028: Seed.007
+    400030: Seed.008
+    400032: Seed.009
+    400034: Seed.010
+    400036: Seed.011
+    400038: Seed.012
+    400040: Tomato
+    400042: Tomato2
+    400044: TopBun
+    2300000: BottomBun
+    2300002: Cheese
+    2300004: Lettuce1
+    2300006: Lettuce2
+    2300008: Meat
+    2300010: Seed
+    2300012: seed
+    2300014: Seed.001
+    2300016: Seed.002
+    2300018: Seed.003
+    2300020: Seed.004
+    2300022: Seed.005
+    2300024: Seed.006
+    2300026: Seed.007
+    2300028: Seed.008
+    2300030: Seed.009
+    2300032: Seed.010
+    2300034: Seed.011
+    2300036: Seed.012
+    2300038: Tomato
+    2300040: Tomato2
+    2300042: TopBun
+    3300000: BottomBun
+    3300002: Cheese
+    3300004: Lettuce1
+    3300006: Lettuce2
+    3300008: Meat
+    3300010: Seed
+    3300012: seed
+    3300014: Seed.001
+    3300016: Seed.002
+    3300018: Seed.003
+    3300020: Seed.004
+    3300022: Seed.005
+    3300024: Seed.006
+    3300026: Seed.007
+    3300028: Seed.008
+    3300030: Seed.009
+    3300032: Seed.010
+    3300034: Seed.011
+    3300036: Seed.012
+    3300038: Tomato
+    3300040: Tomato2
+    3300042: TopBun
+    4300000: Seed.012
+    4300002: Seed.011
+    4300004: Seed.010
+    4300006: Seed.009
+    4300008: Seed.008
+    4300010: Seed.007
+    4300012: Seed.006
+    4300014: Seed.005
+    4300016: Seed.004
+    4300018: Seed.003
+    4300020: Seed.002
+    4300022: seed
+    4300024: Seed.001
+    4300026: Seed
+    4300028: Lettuce2
+    4300030: Lettuce1
+    4300032: BottomBun
+    4300034: Tomato2
+    4300036: Tomato
+    4300038: Cheese
+    4300040: Meat
+    4300042: TopBun
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: d52079f862011f54a8b8fd92e59087e1
+timeCreated: 1533931122
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmSocket.L
+    100004: ArmSocket.R
+    100006: Eye.L
+    100008: Eye.L_end
+    100010: Eye.R
+    100012: Eye.R_end
+    100014: EyeCont
+    100016: EyeCont.L
+    100018: EyeCont.L_end
+    100020: EyeCont.R
+    100022: EyeCont.R_end
+    100024: FootIK.L
+    100026: FootIK.R
+    100028: ForeArm.L
+    100030: ForeArm.R
+    100032: Hand.L
+    100034: Hand.L_end
+    100036: Hand.R
+    100038: Hand.R_end
+    100040: Head
+    100042: Hip
+    100044: LeftEye
+    100046: LegPoleTarget.L
+    100048: LegPoleTarget.L_end
+    100050: LegPoleTarget.R
+    100052: LegPoleTarget.R_end
+    100054: LegSocket.L
+    100056: LegSocket.L_end
+    100058: LegSocket.R
+    100060: LegSocket.R_end
+    100062: Patrick
+    100064: //RootNode
+    100066: RightEye
+    100068: Root
+    100070: Spine1
+    100072: Spine2
+    100074: Spine3
+    100076: Spine4/Neck
+    100078: Toe.L
+    100080: Toe.L_end
+    100082: Toe.R
+    100084: Toe.R_end
+    100086: UpperArm.L
+    100088: UpperArm.R
+    100090: UpperLeg.L
+    100092: UpperLeg.R
+    400000: Armature
+    400002: ArmSocket.L
+    400004: ArmSocket.R
+    400006: Eye.L
+    400008: Eye.L_end
+    400010: Eye.R
+    400012: Eye.R_end
+    400014: EyeCont
+    400016: EyeCont.L
+    400018: EyeCont.L_end
+    400020: EyeCont.R
+    400022: EyeCont.R_end
+    400024: FootIK.L
+    400026: FootIK.R
+    400028: ForeArm.L
+    400030: ForeArm.R
+    400032: Hand.L
+    400034: Hand.L_end
+    400036: Hand.R
+    400038: Hand.R_end
+    400040: Head
+    400042: Hip
+    400044: LeftEye
+    400046: LegPoleTarget.L
+    400048: LegPoleTarget.L_end
+    400050: LegPoleTarget.R
+    400052: LegPoleTarget.R_end
+    400054: LegSocket.L
+    400056: LegSocket.L_end
+    400058: LegSocket.R
+    400060: LegSocket.R_end
+    400062: Patrick
+    400064: //RootNode
+    400066: RightEye
+    400068: Root
+    400070: Spine1
+    400072: Spine2
+    400074: Spine3
+    400076: Spine4/Neck
+    400078: Toe.L
+    400080: Toe.L_end
+    400082: Toe.R
+    400084: Toe.R_end
+    400086: UpperArm.L
+    400088: UpperArm.R
+    400090: UpperLeg.L
+    400092: UpperLeg.R
+    2300000: LeftEye
+    2300002: RightEye
+    3300000: LeftEye
+    3300002: RightEye
+    4300000: LeftEye
+    4300002: RightEye
+    4300004: Patrick
+    7400000: PartickRUNAnimation
+    7400002: PatrickIDLEAnimation
+    7400004: Armature|Walk
+    9500000: //RootNode
+    13700000: Patrick
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PartickRUNAnimation
+      takeName: Armature|ArmatureAction.004
+      firstFrame: 199
+      lastFrame: 245
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/FootIK.L
+        weight: 1
+      - path: Armature/Root/FootIK.L/LegPoleTarget.L
+        weight: 1
+      - path: Armature/Root/FootIK.L/LegPoleTarget.L/LegPoleTarget.L_end
+        weight: 1
+      - path: Armature/Root/FootIK.R
+        weight: 1
+      - path: Armature/Root/FootIK.R/LegPoleTarget.R
+        weight: 1
+      - path: Armature/Root/FootIK.R/LegPoleTarget.R/LegPoleTarget.R_end
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.L
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.L/LegSocket.L_end
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.R
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.R/LegSocket.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L/LeftEye
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R/RightEye
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.L/EyeCont.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.R/EyeCont.R_end
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L/Toe.L
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R/Toe.R
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Patrick
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PatrickIDLEAnimation
+      takeName: Armature|ArmatureAction.004
+      firstFrame: 129
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/FootIK.L
+        weight: 1
+      - path: Armature/Root/FootIK.L/LegPoleTarget.L
+        weight: 1
+      - path: Armature/Root/FootIK.L/LegPoleTarget.L/LegPoleTarget.L_end
+        weight: 1
+      - path: Armature/Root/FootIK.R
+        weight: 1
+      - path: Armature/Root/FootIK.R/LegPoleTarget.R
+        weight: 1
+      - path: Armature/Root/FootIK.R/LegPoleTarget.R/LegPoleTarget.R_end
+        weight: 1
+      - path: Armature/Root/Hip
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.L
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.L/LegSocket.L_end
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.R
+        weight: 1
+      - path: Armature/Root/Hip/LegSocket.R/LegSocket.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.L/UpperArm.L/ForeArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/ArmSocket.R/UpperArm.R/ForeArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L/Eye.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.L/LeftEye
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R/Eye.R_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/Eye.R/RightEye
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.L
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.L/EyeCont.L_end
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.R
+        weight: 1
+      - path: Armature/Root/Hip/Spine1/Spine2/Spine3/Spine4/Neck/Head/EyeCont/EyeCont.R/EyeCont.R_end
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L/Toe.L
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R/Toe.R
+        weight: 1
+      - path: Armature/Root/Hip/UpperLeg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Patrick
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
