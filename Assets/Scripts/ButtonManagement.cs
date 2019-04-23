@@ -1,6 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEngine.Collections;
+//using UnityEngine.Collections;
 
 public class ButtonManagement : MonoBehaviour {
 	
