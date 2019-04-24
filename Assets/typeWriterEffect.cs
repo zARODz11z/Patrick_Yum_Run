@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class typeWriterEffect : MonoBehaviour {
 	public float delay = 0.1f;
 	public string fullText;
-	private string currentText = "";
+	private string currentText = "HEllo";
 
 	// Use this for initialization
 	void Start () {

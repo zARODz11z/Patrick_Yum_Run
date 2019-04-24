@@ -532,7 +532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -585,8 +585,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.69
+  m_Color: {r: 0.9818829, g: 1, b: 0.8392157, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 100
   m_CookieSize: 10
@@ -608,7 +608,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0.34
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1142,12 +1142,12 @@ GameObject:
   - component: {fileID: 816352722}
   - component: {fileID: 816352721}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: LeftBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &816352721
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1257,14 +1257,14 @@ Prefab:
     - target: {fileID: 9500000, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 1d4bfb2f32f171a47b0b3a834598d53e, type: 2}
+      objectReference: {fileID: 9100000, guid: 2f6812eb7d554664bbc31e169e2bbd04, type: 2}
     - target: {fileID: 13700000, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7099413877bce8c47a16abd89e580e77, type: 2}
     - target: {fileID: 100064, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_Name
-      value: Patrick
+      value: PatrickIntroduction
       objectReference: {fileID: 0}
     - target: {fileID: 400064, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1284,10 +1284,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 24819618c75b22145a030fe94c7b418e, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1377,7 +1381,7 @@ GameObject:
   - component: {fileID: 983007817}
   - component: {fileID: 983007816}
   m_Layer: 8
-  m_Name: Ground
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,6 +1734,22 @@ Prefab:
     - {fileID: 114690891996693532, guid: 3e2227c55e6d005449adca9645529a79, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 3e2227c55e6d005449adca9645529a79, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1361856338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100064, guid: d52079f862011f54a8b8fd92e59087e1,
+    type: 3}
+  m_PrefabInternal: {fileID: 1433917024}
+--- !u!114 &1361856341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361856338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee70145678d710a4b8e710a8e8b4ec4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1370278350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4618395527215178, guid: e123a11f2b2f3d247a0113a9268e3751,
@@ -1799,6 +1819,10 @@ Prefab:
     - target: {fileID: 400064, guid: d52079f862011f54a8b8fd92e59087e1, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100064, guid: d52079f862011f54a8b8fd92e59087e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d52079f862011f54a8b8fd92e59087e1, type: 3}
@@ -2131,12 +2155,12 @@ GameObject:
   - component: {fileID: 1655660103}
   - component: {fileID: 1655660102}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: RightBarrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1655660102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2879,7 +2903,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: 
+  fullText: Hello!!!, IM PATRICK, I've kinda got my self in a *shocking* situation,
+    I'm starving and their are tons of jelly fish in between me and the Krusty Krab
 --- !u!114 &1979748706
 MonoBehaviour:
   m_ObjectHideFlags: 0
