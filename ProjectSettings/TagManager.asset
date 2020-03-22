@@ -8,6 +8,10 @@ TagManager:
   - Camera
   - Pop
   - Patty
+  - rightBut
+  - leftButt
+  - characters
+  - confrim
   layers:
   - Default
   - TransparentFX

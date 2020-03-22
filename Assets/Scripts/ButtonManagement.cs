@@ -18,7 +18,7 @@ public class ButtonManagement : MonoBehaviour {
 
 	public void Restart()
 	{
-		pop.SetActive (false);
+		pop.SetActive (true);
 		Invoke("LoadStart",ButtonSpeed);//SceneManager.LoadScene ("Level_1");
 	}
 
@@ -35,6 +35,12 @@ public class ButtonManagement : MonoBehaviour {
 		Invoke ("LoadNextLevel", ButtonSpeed);
 
 	}
+
+	public void LoadStart()
+    {
+		SceneManager.LoadScene("start");
+		pop.SetActive(false);
+    }
 
 
 
