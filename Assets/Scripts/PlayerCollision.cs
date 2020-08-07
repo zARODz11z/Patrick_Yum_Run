@@ -9,7 +9,7 @@ public class PlayerCollision : MonoBehaviour {
 	private int pattyNum = 0;
 	public AudioClip ohhBoy;
 	public AudioClip zap;
-	private bool collidedWithPatty = false;
+	public static bool collidedWithPatty = false;
 	public AudioSource audioSource;
 
 	void Start(){
@@ -29,6 +29,7 @@ public class PlayerCollision : MonoBehaviour {
 	void OnTriggerEnter(Collider colliderInfo){
 	{
 		if (colliderInfo.GetComponent<Collider>().tag == "Patty"&&!collidedWithPatty) {
+			collidedWithPatty = true;
 			pattyScore.GetComponent<Text> ().text = pattyNum++.ToString();
 			Debug.Log ("Hit a patty");
 				audioSource.PlayOneShot (ohhBoy, 1);

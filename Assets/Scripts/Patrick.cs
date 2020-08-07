@@ -11,11 +11,26 @@ public class Patrick : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.F)) {
-			anim.SetInteger ("AnimPar", 1);
-		} else {
-			anim.SetInteger ("AnimPar", 0);
+		if (Input.GetKey(KeyCode.E)) {
+			anim.SetBool("run", false);
+			anim.SetBool("idle", false);
+			anim.SetBool("eat",true);
+			
+		} 
+		else if (Input.GetKey(KeyCode.I))
+		{
+			anim.SetBool("eat", false);
+			anim.SetBool("run", false);
+			anim.SetBool("idle", true);
 		}
+		else if (Input.GetKey(KeyCode.R))
+		{
+			anim.SetBool("eat", false);
+			anim.SetBool("idle", false);
+			anim.SetBool("run", true);
+		}
+
+
 
 	}
 }
