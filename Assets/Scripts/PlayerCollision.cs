@@ -28,12 +28,16 @@ public class PlayerCollision : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider colliderInfo){
 	{
-		if (colliderInfo.GetComponent<Collider>().tag == "Patty"&&!collidedWithPatty) {
-			collidedWithPatty = true;
-			pattyScore.GetComponent<Text> ().text = pattyNum++.ToString();
-			Debug.Log ("Hit a patty");
-				audioSource.PlayOneShot (ohhBoy, 1);
-		}
+			if (colliderInfo.GetComponent<Collider>().tag == "Patty") {
+				collidedWithPatty = true;
+				pattyScore.GetComponent<Text>().text = pattyNum++.ToString();
+				Debug.Log("Hit a patty");
+				if (pattyNum % 2 == 0 || pattyNum == 0)
+				{
+					audioSource.PlayOneShot(ohhBoy, 1);
+
+				}
+			}
 
 
 	}

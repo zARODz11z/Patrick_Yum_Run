@@ -1,5 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEditor;
 //using UnityEngine.Collections;
 
 public class ButtonManagement : MonoBehaviour {
@@ -8,6 +9,7 @@ public class ButtonManagement : MonoBehaviour {
 	//public GameObject cam;
 	public GameObject pop;
 	public GameObject Bubbles;
+	public Animator anim;
 
 
 	public void Quit()
@@ -32,6 +34,10 @@ public class ButtonManagement : MonoBehaviour {
 	public void NextLevel()
 	{
 		Bubbles.SetActive (true);
+		if (anim != null){
+			anim.SetBool("buttonPushed", true);
+
+		}
 		Invoke ("LoadNextLevel", ButtonSpeed);
 
 	}
