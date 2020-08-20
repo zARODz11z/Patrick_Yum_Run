@@ -1,7 +1,7 @@
 # Patrick's Yum Run
-<img src="SIBoard_modal.png" alt="alt text" width="200px" height="200px">
+<img src="PatrickModal4.png" alt="alt text" width="200px" height="200px">
     
-**SI Board Game**
+**Unity WebGL Game**
 <br>
 Author: **Andrew Rodriguez**
 ---
@@ -13,22 +13,20 @@ Author: **Andrew Rodriguez**
 - [Author Info](#author-info)
 ---
 ## Description
-SI Board Game is a Unity WebGL game that allows Supplemental Instruction leaders to gamify their exam reviews remotely by logging user data and simulating peronalized boards for study. Using Unity as the frontend with PHP and MySQL in the backend users data is persistant. Users can create and login using HTTPS-based user authentication with hashed passwords. Database supports (CRUD) Create, read, update, and delete operations.
+Patrick's Yum Run is a Unity WebGL game that challenges the player to dodge fishing hooks and jelly fish while picking up krabby patties along the way. The game incorporates Blender 3D models, UV Maps, and animations within Unity. The game uses MySQL and PHP to create a high score leaderboard. The leaderboard supports **CRUD, create, read, update, and delete.**
 #### Technologies
 - C#
 - PHP
 - Unity
 - Google Cloud Platform
 - MySQL
+- Blender
 ---
 ## User Stories
-* [x] User can **Create a unique account with hashed passwords and an email** to recieve confirmation codes
-* [x] User can **Login with their account** from the login page
-* [x] User can **Update account password** by recieving a reset email
-* [x] User can **Create and save** up to 3 personalized study boards
-* [x] User can **reopen saved** study boards
-* [x] User can **Edit** the study board by inserting questions, and images
-* [x] User can **Play** their study board game
+* [x] User can **Play** the game and interact with the in-game entities
+* [x] User can **Pick up** krabby patties which adds on to their score
+* [x] User can **Lose** by running into a jelly fish or a fishing hook
+* [x] User can **compete** for the top of the leaderboard amoung other players 
 ---
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
@@ -38,19 +36,13 @@ Here's a walkthrough of implemented user stories:
 ### GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ---
 ## How to use
-1) Visit [andrewthedev.com/si-board-game/](https://www.andrewthedev.com/si-board-game/)
-2) Create an account or play right away without the ability to save your progress. After creating your account input the confirmation code sent to your email
-3) Login to your account
-4) Click play
-5) Create a game or choose from your 3 previously saved games. Delete a game to make room for a different game
-6) Click on the numbered squares to input your questions and answers (**DONT FORGET TO SAVE YOUR PROGRESS**)
-7) When ready, start the game and add as many students as you need
-8) Roll the virual die and have the students answer the question
-9) Move their character accordinanly to the rolled number
+1) Visit [andrewthedev.com/unity-patric-run-game/](https://www.andrewthedev.com/unity-patrick-run-game/)
+2) Click play
+3) Use A to move left, and D to move right
+4) Dodge jelly fish and fishing hooks and grab krabby patties along the way.
 ---
 ## Challenges
-- Initially I struggled with the backend developement because it was totally new to me and I had to do a lot of research on PHP and MySQL
-- Additionally setting up the Google cloud MySQL database was daunting at first but it was fairly easy in the end
+
 ---
 ## Author Info
 - Linkedin - [@andrew-m-rodriguez](https://www.linkedin.com/in/andrew-m-rodriguez)
