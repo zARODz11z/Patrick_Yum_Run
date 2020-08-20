@@ -31,7 +31,7 @@ Patrick's Yum Run is a Unity WebGL game that challenges the player to dodge fish
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='patrick_Yum_rum_demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ---
